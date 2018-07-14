@@ -8,5 +8,12 @@ module.exports = () => {
     concurrency: '3',
   };
 
+  config.redis = {
+    host: '127.0.0.1',
+    port: 6379,
+    password: '',
+    db: '0',
+  };
+
   return config;
 };
